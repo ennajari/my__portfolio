@@ -4,7 +4,10 @@ table, td, th {
   color: rgb(0, 0, 0);
   border: 2px solid rgb(0, 0, 0);
 }
-
+body{
+  margin: 0%;
+  padding: 0%;
+}
 table {
   font-size: x-large;
   margin-top: 5%;
@@ -20,8 +23,11 @@ th {
 }
 
 h2 {
+  margin-top: 20%;
   text-align: center;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-family:MV Boli;
 }
 body{
   background-image: url(Home.png);
@@ -34,4 +40,38 @@ body{
   margin-right: 10%;
 
   font-size: xx-large;
+}
+@media (min-width: 400px) and (max-width: 799px) {
+  table, td, th {
+    background-color: rgb(151, 148, 148);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+  }
+  body{
+    margin: 0%;
+    padding: 0%;
+  }
+  table {
+    font-size: small;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-collapse: collapse;
+    width: 89%;
+    margin-left: 5%;
+    padding: 15%;
+  }
+  
+  th {
+    height: 70px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  body{
+    background-image: url(Home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
