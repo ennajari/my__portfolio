@@ -1,0 +1,62 @@
+#h1{
+    text-align: center;
+    margin-top: 10%;
+}
+.fa.fa-envelope {
+    margin-top: 5%;
+margin-left: 27%;
+
+  }
+  
+     body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right, #1A237E, #0e7a88);
+        height: 100%;
+      }
+
+      .container {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+      }
+
+      .btn-sosmed {
+        display: inline-block;
+        background: #e0e0e0;
+        width: 96px;
+        height: 96px;
+        margin: 8px;
+        border-radius: 18px;
+        box-shadow: 0 6px 16px -6px #000;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .btn-sosmed.btn-facebook {
+        color: #0015f8;
+      }
+
+      .btn-sosmed.btn-instagram {
+        color: #F50057;
+      }
+
+      .btn-sosmed.btn-twitter {
+        color: #0091EA;
+      }
+
+      .btn-sosmed.btn-youtube {
+        color: #D50000;
+      }
+
+      .btn-sosmed.btn-google {
+        color: #304FFE;
+      }
+
+      .btn-sosmed i {
+        line-height: 96px;
+        font-size: 24px;
+        transition: 0.3s linear;
+      }

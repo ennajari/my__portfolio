@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+h3{
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0%;
+
+}
+body{
+    margin-right: 2%;
+}
+h4 
+{
+    margin-top: 6%;
+        margin:20%;
+        color:#ffffff ;
+        font-size: x-large;
+    } 
+    h2 {
+       margin-top: 3%;
+       text-align: center;
+       font-size: 2em;
+       font-weight: bold;
+       margin-bottom: 2%;
+       padding: 0%;
+
+    }
+   body{
+    /* background-image: url(x.png); */
+   } 
+    .rectangle {
+        z-index: -1;
+        filter: drop-shadow(2px 2px 2px red);
+        border: none;
+        border-radius: 10em;
+        height: 5em;
+        margin-left: 5%;
+        background-color: #e0dee0;
+    }
+ 
+    .re {
+        filter: drop-shadow(2px 2px 2px red);
+        border: none;
+        border-radius: 10em;
+        height: 5em;
+        width: auto;
+        margin-left: 5%;
+        background-color: #aaa6aa;
+    }
+    
+    .rec {
+        z-index: -1;
+        filter: drop-shadow(2px 2px 2px red);
+        border: none;
+        border-radius: 10em;
+        height: 5em;
+        width: auto;
+        margin-left: 5%;
+        background-color: #e0dee0;
+    }
+    
+    .rect {
+        filter: drop-shadow(2px 2px 2px red);
+       border: none;
+        border-radius: 10em;
+        height: 5em;
+        width: auto;
+        margin-left: 5%;
+        background-color: #aaa6aa;
+        
+    }
+
+
+    
+    p.D 
+    {
+            box-shadow: 9px 1px 1px rgba(0, 0, 0, 0.09);
+            font-size: x-large;
+            border-style: inset;
+        border-radius: 5%;
+        /* width: 100%; */
+    background-color: rgb(161, 196, 173);
+}
+
+p.z {
+    box-shadow: 9px 1px 1px rgba(0, 0, 0, 0.09);
+    font-size: x-large;
+    border-style: inset;
+    border-radius: 1em;
+    background-color: #aaa6aa;
+}
+p.e {
+    box-shadow: 9px 1px 1px rgba(0, 0, 0, 0.09);
+    font-size: x-large;
+    border-style: inset;
+    border-radius: 1em;
+    width: 100%;
+background-color: rgb(205, 163, 209);}
+p.A {
+    box-shadow: 9px 1px 1px rgba(0, 0, 0, 0.09);
+    font-size: x-large;
+    border-style: inset;
+    border-radius: 1em;
+    width: 100%;
+background-color: rgb(204, 206, 166);}
+    #De {
+        margin-left: 35%;
+    }
+    
+    p {
+        font-size: x-large;
+        font-family:Segoe Script ;
+    }
+.aa{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+@media (min-width: 400px) and (max-width: 799px) {
+    body {
+  background-image: url(patrick-tomasso-Oaqk7qqNh_c-unsplash-scaled.jpg);
+  background-size:cover; 
+   }
+   .aa{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+.rec{
+    margin-top:45em;
+
+}
+.rect{
+    margin-top:45em;
+
+}
+h4 
+{
+        color:#ffffff ;
+        font-size: x-large;
+    } 
+  }
+
+
+  @media (min-width: 800px) and (max-width: 1000px){
+    body{
+
+        background-color: aqua;
+    }
+  }
+
+
+
+  @media (min-width: 800px) {
+    body {
+      background-image: url(xx.png);
+      background-size:cover;
+   }
+   #aa{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   }
+
+  }
+  
