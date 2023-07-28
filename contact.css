@@ -25,18 +25,18 @@ margin-left: 27%;
 
       .btn-sosmed {
         display: inline-block;
-        background: #e0e0e0;
-        width: 96px;
-        height: 96px;
-        margin: 8px;
-        border-radius: 18px;
+        background: #000000;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 8em;
         box-shadow: 0 6px 16px -6px #000;
-        position: relative;
-        overflow: hidden;
-      }
-
+            }
+ .btn-sosmed.btn-email {
+              color: #ff0000;
+            }
       .btn-sosmed.btn-facebook {
-        color: #0015f8;
+        color: #0066ff;
       }
 
       .btn-sosmed.btn-instagram {
